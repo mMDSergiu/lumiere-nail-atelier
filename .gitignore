@@ -1,0 +1,5 @@
+node_modules
+dist
+.env
+# Salon content and uploaded photos (back these up!)
+data/

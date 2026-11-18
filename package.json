@@ -1,0 +1,20 @@
+{
+  "name": "nail-designer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Nail salon website with an online nail design studio, salon editor and online booking",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build -c vite.widget.config.ts && vite build",
+    "start": "node server/index.js",
+    "set-password": "node server/set-password.js",
+    "build:widget": "vite build -c vite.widget.config.ts",
+    "build:website": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}
